@@ -1,0 +1,34 @@
+.main_wrapper {
+  background: url('/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .text_section {
+    padding: 108px 0px;
+    h2 {
+      color: #fff;
+      font-family: Inter;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 44px; /* 122.222% */
+      letter-spacing: -0.72px;
+    }
+    h4 {
+      color: #fff;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    h5 {
+      color: #e40d79;
+
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+}

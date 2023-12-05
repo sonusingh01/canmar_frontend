@@ -1,0 +1,48 @@
+.main_wrapper {
+  margin-top: 64px;
+  padding: 0px 10px;
+  .flexContainer {
+    display: flex;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+    .box {
+      margin: 0px 10px;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .content_sec {
+      h5 {
+        color: #e40d79;
+
+        /* Text md/Semibold */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+      }
+      h4 {
+        color: var(--gray-900, #101828);
+        /* Text xl/Semibold */
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 150% */
+      }
+      p {
+        color: var(--gray-600, #475467);
+        /* Text md/Regular */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+      }
+    }
+  }
+}
